@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: caike
+      MONGO_INITDB_ROOT_PASSWORD: caike
+    ports: 
+      - 27017:27017
+    volumes: 
+      - /home/Documentos/Image Mongo Docker:/data/db
+
