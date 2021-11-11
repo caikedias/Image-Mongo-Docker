@@ -6,8 +6,8 @@ services:
     image: mongo
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: caike
-      MONGO_INITDB_ROOT_PASSWORD: caike
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
     ports: 
       - 27017:27017
     volumes: 
